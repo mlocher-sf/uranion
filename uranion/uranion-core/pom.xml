@@ -1,0 +1,19 @@
+<?xml version="1.0"?><project>
+  <parent>
+    <artifactId>uranion</artifactId>
+    <groupId>net.sf</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.sf</groupId>
+  <artifactId>uranion-core</artifactId>
+  <name>Uranion Core</name>
+  <version>1.0-SNAPSHOT</version>
+  <url>http://uranion.sourceforge.net/modules/${project.artifactId}</url>
+  <distributionManagement>
+    <site>
+      <id>uranion.sf.net</id>
+      <url>scp://shell.sourceforge.net/home/groups/u/ur/uranion/htdocs/modules/${project.artifactId}</url>
+    </site>
+  </distributionManagement>
+</project>
