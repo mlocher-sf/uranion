@@ -8,33 +8,39 @@
   <name>Uranion</name>
   <description>uranion is an asynchronus java NIO server framework.</description>
   <url>http://uranion.sourceforge.net</url>
-   <issueManagement>
-                <system>Sourceforge Bugtracker</system>
-                <url>
-                        <![CDATA[http://sourceforge.net/tracker/?group_id=166189&atid=838030]]>
-                </url>
-        </issueManagement>
-        <inceptionYear>2006</inceptionYear>
-        <organization>
-                <name>SourceForge</name>
-                <url>http://www.sourceforge.net/projects/uranion/</url>
-        </organization>
-        <developers>
-                <developer>
-                        <id>mlocher</id>
-                        <name>Michael Locher</name>
-                        <email>michael.locher@acm.org</email>
-                </developer>
-        </developers>
-        <licenses>
-                <license>
-                        <name>LGPL</name>
-                        <url>http://www.gnu.org/copyleft/lesser.txt</url>
-                        <distribution>repo</distribution>
-                </license>
-        </licenses>
-
+  <issueManagement>
+    <system>Sourceforge Bugtracker</system>
+    <url><![CDATA[http://sourceforge.net/tracker/?group_id=166189&atid=838030]]></url>
+  </issueManagement>
+  <inceptionYear>2006</inceptionYear>
+  <organization>
+    <name>SourceForge</name>
+    <url>http://www.sourceforge.net/projects/uranion/</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>mlocher</id>
+      <name>Michael Locher</name>
+      <email>michael.locher@acm.org</email>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>LGPL</name>
+      <url>http://www.gnu.org/copyleft/lesser.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:svn:https://svn.sourceforge.net/svnroot/uranion/trunk/uranion/</connection>
+    <developerConnection>scm:svn:https://svn.sourceforge.net/svnroot/uranion/trunk/uranion/</developerConnection>
+    <url>http://svn.sourceforge.net/viewvc/uranion/</url>
+  </scm>
   <distributionManagement>
+    <repository>
+      <id>uranion.sf.net</id>
+      <url>scp://shell.sourceforge.net/home/groups/u/ur/uranion/htdocs/maven2repo</url>
+    </repository>
     <site>
       <id>uranion.sf.net</id>
       <url>scp://shell.sourceforge.net/home/groups/u/ur/uranion/htdocs</url>
@@ -58,23 +64,22 @@
   </build>
   <reporting>
     <plugins>
-	     <plugin>
-                                <groupId>org.apache.maven.plugins</groupId>
-                                <artifactId>maven-pmd-plugin</artifactId>
-                        </plugin>
-                        <plugin>
-                                <groupId>org.codehaus.mojo</groupId>
-                                <artifactId>surefire-report-maven-plugin</artifactId>
-                        </plugin>
-                        <plugin>
-                                <groupId>org.apache.maven.plugins</groupId>
-                                <artifactId>maven-javadoc-plugin</artifactId>
-                        </plugin>
-                        <plugin>
-                                <groupId>org.codehaus.mojo</groupId>
-                                <artifactId>jxr-maven-plugin</artifactId>
-                        </plugin>
-
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>surefire-report-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>jxr-maven-plugin</artifactId>
+      </plugin>
     </plugins>
   </reporting>
   <dependencies>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="uranion">
+
+	<bannerLeft>
+		<src>
+			http://sflogo.sourceforge.net/sflogo.php?group_id=166189&amp;type=1
+		</src>
+	</bannerLeft>
+	<bannerRight>
+		<name>uranion</name>
+		<href>http://uranion.sourceforge.net/</href>
+		<src>http://uranion.sourceforge.net/images/uranion.png</src>
+	</bannerRight>
+
+	<body>
+		<links>
+			<item name="uranion-core" href="http://uranion.sourceforge.net/modules/uranion-core/" />
+			<item name="uranion-reactor" href="http://uranion.sourceforge.net/modules/uranion-reactor/" />
+			<item name="SF Project Site" href="http://sourceforge.net/projects/uranion" />
+		</links>
+
+		${modules}
+
+		<menu name="Maven">
+			<item name="Maven Repo" href="http://uranion.sourceforge.net/maven2repo" />
+		</menu>
+
+
+		${reports}
+
+	</body>
+</project>
